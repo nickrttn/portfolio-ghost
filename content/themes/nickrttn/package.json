@@ -1,0 +1,25 @@
+{
+  "name": "nickrttn",
+  "version": "1.0.0",
+  "maintainer": "Nick Rutten <hello@nickrttn.me>",
+  "description": "Mobile-first responsive front-end and visual design portfolio theme.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickrttn/portfolio-ghost.git"
+  },
+  "keywords": [
+    "ghost",
+    "responsive",
+    "flexbox"
+  ],
+  "author": "Nick Rutten",
+  "license": " CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/nickrttn/portfolio-ghost/issues"
+  },
+  "homepage": "https://github.com/nickrttn/portfolio-ghost#readme"
+}

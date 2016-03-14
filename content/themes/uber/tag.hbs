@@ -1,0 +1,41 @@
+{{!< default}}
+
+<main class="uber_main" role="main">
+
+    {{#tag}}
+    <div class="uber_article tag_heading">
+        <h1>Posts Tagged: {{name}}</h1>
+    </div>
+    {{/tag}}
+
+    {{#foreach posts}}
+
+    <article class="uber_article {{post_class}}" role="article" itemscope itemtype="http://schema.org/Article">
+
+        <header class="uber_postheader">
+            <time class="uber_date" datetime="{{date format="YYYY-MM-DD"}}" itemProp="datePublished">{{date published_at timeago="true"}}</time>
+            <h1 class="uber_posttitle" itemprop="headline"><a href="{{{url}}}" rel="bookmark">{{title}}</a></h1>
+            <p class="author">Written by {{author}}</p>
+        </header>
+
+        <main class="uber_postcontent" itemprop="articleBody">
+            {{excerpt characters="140"}}
+        </main>
+
+        <footer class="uber_posttags" itemprop="keywords">
+            {{#if tags}}
+                Tags: {{tags separator=" – "}}
+            {{/if}}
+        </footer>
+
+    </article>
+
+    {{/foreach}}
+
+    <nav class="uber_pagination">
+        {{#if pagination}}
+            {{{pagination}}}
+        {{/if}}
+    </nav
+
+</main>

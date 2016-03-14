@@ -1,0 +1,92 @@
+<svg width="267" height="393" viewBox="0 0 267 393" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>
+    Group
+  </title>
+  <defs>
+    <linearGradient x1="100%" y1="-6.05481%" x2="0%" y2="98.66876%" id="b">
+      <stop stop-color="#363636" offset="0%"/>
+      <stop stop-color="#363636" stop-opacity=".23612" offset="72.641%"/>
+      <stop stop-color="#7E7E7E" stop-opacity=".2" offset="100%"/>
+    </linearGradient>
+    <path shape-rendering="crispEdges" id="a" d="M266.9201 391.96874L267.0124.47762l-38.46332 37.13706v321.58648l38.37103 32.76758z"/>
+    <linearGradient x1="49.99984%" y1="0%" x2="49.99984%" y2="99.99952%" id="d">
+      <stop stop-color="#363636" offset="0%"/>
+      <stop stop-color="#363636" stop-opacity=".7" offset="100%"/>
+    </linearGradient>
+    <path shape-rendering="crispEdges" id="c" d="M190.09998.5l38.44948 37.13L266.99998.5h-76.9z"/>
+    <linearGradient x1="27.53567%" y1="0%" y2="110.86896%" id="f">
+      <stop stop-color="#363636" offset="0%"/>
+      <stop stop-color="#363636" stop-opacity=".35" offset="25.78723%"/>
+      <stop stop-color="#7E7E7E" stop-opacity=".2" offset="100%"/>
+    </linearGradient>
+    <path shape-rendering="crispEdges" id="e" d="M228.56897 37.62018v321.617l-26.61676-48.09094-11.8522-89.7994V.5017l38.469 37.11848z"/>
+    <linearGradient x1="50.00001%" y1="-7.11616%" x2="50%" y2="95.12408%" id="h">
+      <stop stop-color="#363636" offset="0%"/>
+      <stop stop-color="#363636" stop-opacity=".35" offset="72.641%"/>
+      <stop stop-color="#7E7E7E" stop-opacity=".2" offset="100%"/>
+    </linearGradient>
+    <path shape-rendering="crispEdges" id="g" d="M65.98088 82.46586L39.2387 34.0907 109.89497.45007l92.0095 310.61933L65.9809 82.46586z"/>
+    <linearGradient x1="-5.85191%" y1="-6.35129%" x2="89.99959%" y2="96.63463%" id="j">
+      <stop stop-color="#363636" offset="0%"/>
+      <stop stop-color="#363636" stop-opacity=".35" offset="32.85037%"/>
+      <stop stop-color="#7E7E7E" stop-opacity=".2" offset="100%"/>
+    </linearGradient>
+    <path shape-rendering="crispEdges" id="i" d="M157.33588 392.01556L65.83246 81.91576 201.881 310.98986l26.6995 48.24037-71.24462 32.78534z"/>
+    <linearGradient x1="362.13443%" y1="-173.35629%" x2="0%" y2="100%" id="l">
+      <stop stop-color="#363636" offset="0%"/>
+      <stop stop-color="#7E7E7E" stop-opacity=".2" offset="100%"/>
+    </linearGradient>
+    <path shape-rendering="crispEdges" id="k" d="M266.91172 391.96206H157.43358l71.13215-32.7568 38.346 32.7568z"/>
+    <linearGradient x1="50.00001%" y1="-7.11616%" x2="50%" y2="95.12408%" id="n">
+      <stop stop-color="#363636" offset="0%"/>
+      <stop stop-color="#363636" stop-opacity=".23612" offset="72.641%"/>
+      <stop stop-color="#363636" stop-opacity=".2" offset="100%"/>
+    </linearGradient>
+    <path shape-rendering="crispEdges" id="m" d="M39.23566 356.98975l38.41772 35.02343V182.94913L65.78662 81.88867l-26.55096-47.8186v322.91968z"/>
+    <linearGradient x1="297.94705%" y1="-121.56575%" x2="0%" y2="100%" id="p">
+      <stop stop-color="#363636" offset="0%"/>
+      <stop stop-color="#363636" stop-opacity=".7408" offset="32.39987%"/>
+      <stop stop-color="#7E7E7E" stop-opacity=".2" offset="100%"/>
+    </linearGradient>
+    <path shape-rendering="crispEdges" id="o" d="M77.70005 392.008L39.24953 357 .80005 392.008h76.9z"/>
+    <linearGradient x1="50.00038%" y1="0%" x2="50.00038%" y2="99.99996%" id="r">
+      <stop stop-color="#363636" offset="0%"/>
+      <stop stop-color="#363636" stop-opacity=".35" offset="32.04321%"/>
+      <stop stop-color="#7E7E7E" stop-opacity=".2" offset="100%"/>
+    </linearGradient>
+    <path shape-rendering="crispEdges" id="q" d="M39.2452 356.98724L.84245 391.96174V.45017L39.2452 34.04545v322.9418z"/>
+    <path shape-rendering="crispEdges" id="s" d="M109.90638.46332l-70.6612 33.62823L.82526.46332h109.08112z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#FFF" xlink:href="#a"/>
+    <use fill="url(#b)" xlink:href="#a"/>
+    <use fill-opacity=".07" style="mix-blend-mode:soft-light" xlink:href="#a"/>
+    <use fill="#FFF" xlink:href="#c"/>
+    <use fill="url(#d)" xlink:href="#c"/>
+    <use fill-opacity=".07" style="mix-blend-mode:soft-light" xlink:href="#c"/>
+    <use fill="#FFF" xlink:href="#e"/>
+    <use fill="url(#f)" xlink:href="#e"/>
+    <use fill-opacity=".07" style="mix-blend-mode:soft-light" xlink:href="#e"/>
+    <use fill="#FFF" xlink:href="#g"/>
+    <use fill="url(#h)" xlink:href="#g"/>
+    <use fill-opacity=".07" style="mix-blend-mode:soft-light" xlink:href="#g"/>
+    <use fill="#FFF" xlink:href="#i"/>
+    <use fill="url(#j)" xlink:href="#i"/>
+    <use fill-opacity=".07" style="mix-blend-mode:soft-light" xlink:href="#i"/>
+    <use fill="#FFF" xlink:href="#k"/>
+    <use fill="url(#l)" xlink:href="#k"/>
+    <use fill-opacity=".07" style="mix-blend-mode:soft-light" xlink:href="#k"/>
+    <use fill="#FFF" xlink:href="#m"/>
+    <use fill="url(#n)" xlink:href="#m"/>
+    <use fill-opacity=".07" style="mix-blend-mode:soft-light" xlink:href="#m"/>
+    <use fill="#FFF" xlink:href="#o"/>
+    <use fill="url(#p)" xlink:href="#o"/>
+    <use fill-opacity=".07" style="mix-blend-mode:soft-light" xlink:href="#o"/>
+    <use fill="#FFF" xlink:href="#q"/>
+    <use fill="url(#r)" xlink:href="#q"/>
+    <use fill-opacity=".07" style="mix-blend-mode:soft-light" xlink:href="#q"/>
+    <use fill="#FFF" xlink:href="#s"/>
+    <use fill="url(#d)" xlink:href="#s"/>
+    <use fill-opacity=".07" style="mix-blend-mode:soft-light" xlink:href="#s"/>
+  </g>
+</svg>

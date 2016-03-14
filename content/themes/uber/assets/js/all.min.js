@@ -1,0 +1,1 @@
+function responsive_iframes(){jQuery(document).ready(function($){function responsiveIframe(){$("iframe").each(function(){var iw=$(this).width(),ih=$(this).height(),ip=$(this).parent().width(),ipw=ip/iw,ipwh=Math.round(ih*ipw);$(this).css({width:ip,height:ipwh})})}responsiveIframe(),$(window).resize(function(){responsiveIframe()})})}

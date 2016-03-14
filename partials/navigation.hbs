@@ -1,0 +1,7 @@
+<nav role="navigation">
+    <ul>
+        {{#foreach navigation}}
+        <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}"><a href="{{url absolute="true"}}" title="This menu item navigates to {{label}}.">{{label}}</a></li>
+        {{/foreach}}
+    </ul>
+</nav>
