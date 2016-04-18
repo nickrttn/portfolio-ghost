@@ -4,11 +4,12 @@
     <a href="{{url}}">
         <header class="post-header">
             <img src="{{image}}" alt="{{title}}">
-            <h1 class="post-title">{{{title}}}</h1>
         </header>
     </a>
     <footer class="post-meta">
+        <h1 class="post-title">{{{title}}}</h1>
         <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
+        <p>{{excerpt characters="140"}}&#8230;</p>
         <p class="post-tags">{{tags prefix="Post tagged: " separator=" " autolink="true"}}</p>
     </footer>
 </article>

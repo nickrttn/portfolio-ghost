@@ -12,8 +12,10 @@
 {{#post}}
 <article class="full {{post_class}}">
 
-    <header class="post-header">
+    <header class="page-header">
+    	{{#if image}}
         <img src="{{image}}" alt="{{title}}">
+        {{/if}}
         <h1 class="post-title">{{{title}}} <a href="{{url}}">#</a></h1>
         <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
     </header>

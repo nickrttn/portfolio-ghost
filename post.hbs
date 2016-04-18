@@ -9,7 +9,8 @@
 
 {{navigation}}
 
-{{#post}}
+{{#is "post"}}
+	{{#post}}
 <article class="full {{post_class}}">
 
     <header class="post-header">
@@ -38,4 +39,5 @@
 
     </footer>
 </article>
-{{/post}}
+	{{/post}}
+{{/is}}
