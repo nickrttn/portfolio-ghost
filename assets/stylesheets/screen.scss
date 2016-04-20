@@ -680,6 +680,10 @@ img {
     margin-top: 2em;
 }
 
+.post-template .post-header {
+  padding: 0 2vw;
+}
+
 .post-template .post-title {
     line-height: 1.2;
     padding-right: 2vw;
@@ -689,6 +693,10 @@ img {
     display: block;
     margin: .5em 0;
     color: #9e9e9e;
+}
+
+.full .post-meta {
+  padding: 0 2vw;
 }
 
 .full main {
@@ -747,6 +755,7 @@ img {
 .main-footer {
     text-align: center;
     margin: 3em 0;
+    padding: 0 2vw;
 }
 
 .main-footer img {
@@ -810,8 +819,8 @@ img {
       padding: 0 1em;
     }
 
-    .full header {
-        padding-left: 20vw;
+    .full {
+
     }
 
     .full h1 a {
@@ -825,21 +834,6 @@ img {
         display: inline;
     }
 
-    .full header img {
-        margin-left: -20vw;
-    }
-
-    .full main {
-        padding: 0 2vw 0 20vw;
-        max-width: calc(35em + 8.75vw);
-    }
-
-    .full footer {
-        padding: 0 2vw 0 20vw;
-        max-width: calc(35em + 8.75vw);
-        margin: 1.5em 0;
-    }
-
     .full footer h3 {
         margin: 1.5em 0;
     }
@@ -850,6 +844,28 @@ img {
       max-width: 40vw;
       margin-right: 2em;
   }
+}
+
+@media screen and (min-width: 65em) {
+  .full header {
+    padding-left: 20vw;
+  }
+
+  .full header img {
+      margin-left: -20vw;
+  }
+
+  .full main {
+      padding: 0 2vw 0 20vw;
+      max-width: calc(35em + 8.75vw);
+  }
+
+  .full footer {
+      padding: 0 2vw 0 20vw;
+      max-width: calc(35em + 8.75vw);
+      margin: 1.5em 0;
+  }
+
 }
 
 /* http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascript+sql */
