@@ -1,20 +1,20 @@
 {{!< default}}
 
 <header role="banner">
-    {{#if @blog.logo}}
-        <a class="blog-logo" href="{{@blog.url}}">
-            <img src="{{@blog.logo}}" alt="{{@blog.title}}">
+    {{#if @site.logo}}
+        <a class="blog-logo" href="{{@site.url}}">
+            <img src="{{@site.logo}}" alt="{{@site.title}}">
         </a>
     {{/if}}
     <div class="headings">
-        <h1 class="page-title">{{@blog.title}}</h1>
-        <h2 class="page-description">{{{@blog.description}}}</h2>
+        <h1 class="page-title">{{@site.title}}</h1>
+        <h2 class="page-description">{{{@site.description}}}</h2>
     </div>
 </header>
 
 {{navigation}}
 
 <main role="main">
-    <h3>Mijn werk</h3>
+    <h3>Projects</h3>
     {{> "loop"}}
 </main>

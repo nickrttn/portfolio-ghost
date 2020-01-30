@@ -1,43 +1,31 @@
 {{!< default}}
 
 <header role="banner">
-    <a class="blog-logo" href="{{@blog.url}}">
-        <img src="{{@blog.logo}}" alt="{{@blog.title}}">
+    <a class="blog-logo" href="{{@site.url}}">
+        <img src="{{@site.logo}}" alt="{{@site.title}}">
     </a>
-    <h1 class="page-title">{{@blog.title}}</h1>
+    <h1 class="page-title">{{@site.title}}</h1>
 </header>
 
 {{navigation}}
 
 {{#post}}
 <article class="full {{post_class}}">
-
     <header class="page-header">
-    	{{#if image}}
-        <img src="{{image}}" alt="{{title}}">
-        {{/if}}
+    	{{#if feature_image}}
+        <img src="{{img_url}}" alt="{{title}}">
+      {{/if}}
         <h1 class="post-title">{{{title}}} <a href="{{url}}">#</a></h1>
         <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
     </header>
-    <main>
+    <section>
         {{{content}}}
-    </main>
+    </section>
     <footer class="post-meta" role="contentinfo">
         <p class="post-tags">{{tags prefix="Post tagged: " separator=" " autolink="true"}}</p>
 
-        <section class="read-more">
-        <h3>Meer lezen?</h3>
-        {{#prev_post}}<a href="{{url}}"><h4>{{title}}</h4></a>{{/prev_post}}
-        {{#next_post}}<a href="{{url}}"><h4>{{title}}</h4></a>{{/next_post}}
-        </section>
-
-
-        <section class="author">
-            <h3>Over {{author.name}}</h3>
-            <img src="{{author.image}}" alt="{{author.name}}">
-            <p class="author-bio">{{{author.bio}}}</p>
-        </section>
-
+        {{> "read-more"}}
+        {{> "author"}}
     </footer>
 </article>
 {{/post}}

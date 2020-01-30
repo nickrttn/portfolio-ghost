@@ -13,13 +13,21 @@
   },
   "keywords": [
     "ghost",
-    "responsive",
-    "flexbox"
+    "ghost-theme"
   ],
-  "author": "Nick Rutten",
-  "license": " CC-BY-SA-4.0",
+  "author": {
+    "name": "Nick Rutten",
+    "email": "hello@nickrttn.me"
+  },
+  "license": "CC-BY-SA-4.0",
   "bugs": {
     "url": "https://github.com/nickrttn/portfolio-ghost/issues"
   },
-  "homepage": "https://github.com/nickrttn/portfolio-ghost#readme"
+  "homepage": "https://github.com/nickrttn/portfolio-ghost#readme",
+  "config": {
+    "posts_per_page": 5
+  },
+  "engines": {
+    "ghost-api": "v3"
+  }
 }
