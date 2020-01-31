@@ -1,5 +1,6 @@
 {{! This is the post loop - each post will be output using this markup }}
 {{#foreach posts}}
+    {{#post}}
 <article class="excerpt {{post_class}}">
     <a href="{{url}}">
         <header class="post-header">
@@ -13,4 +14,5 @@
         <p class="post-tags">{{tags prefix="Post tagged: " separator=" " autolink="true"}}</p>
     </footer>
 </article>
+    {{/post}}
 {{/foreach}}
