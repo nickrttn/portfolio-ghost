@@ -13,14 +13,14 @@
 <article class="full {{post_class}}">
     <header class="page-header">
     	{{#if feature_image}}
-        <img src="{{img_url}}" alt="{{title}}">
+        <img src="{{img_url feature_image}}" alt="{{title}}">
       {{/if}}
         <h1 class="post-title">{{{title}}} <a href="{{url}}">#</a></h1>
         <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
     </header>
-    <section>
+    <main>
         {{{content}}}
-    </section>
+    </main>
     <footer class="post-meta" role="contentinfo">
         <p class="post-tags">{{tags prefix="Post tagged: " separator=" " autolink="true"}}</p>
 
